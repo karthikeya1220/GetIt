@@ -118,17 +118,17 @@ export function PremiumNavbar({recruiterId}: PremiumNavbarProps) {
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link href="/dashboard" className="flex cursor-pointer items-center">
+              <Link href="/explore/students" className="flex cursor-pointer items-center">
                 <Icons.layout className="mr-2 h-4 w-4" />
-                <span>Dashboard</span>
+                <span>Explore</span>
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
+            {/* <DropdownMenuItem asChild>
               <Link href="/settings" className="flex cursor-pointer items-center">
                 <Icons.settings className="mr-2 h-4 w-4" />
                 <span>Settings</span>
               </Link>
-            </DropdownMenuItem>
+            </DropdownMenuItem> */}
             <DropdownMenuSeparator />
             <DropdownMenuItem 
               onClick={handleLogout}
@@ -147,7 +147,7 @@ export function PremiumNavbar({recruiterId}: PremiumNavbarProps) {
         <Link href="/login">
           <Button variant="outline">Log In</Button>
         </Link>
-        <Link href="/signup">
+        <Link href="/signup-options">
           <Button>Sign Up</Button>
         </Link>
       </>

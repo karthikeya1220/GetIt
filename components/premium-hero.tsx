@@ -126,7 +126,7 @@ export function PremiumHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3, type: "spring", stiffness: 100 }}
           >
-            <Link href="/signup">
+            <Link href="/signup-options">
               <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
                 <Button
                   size="lg"
